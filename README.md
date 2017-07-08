@@ -1,16 +1,10 @@
-# Boilerplate for a Koa Redux React app with Webpack, Mocha, SASS, Babel, ESLint...
-
-## Docs
-
-[Detailed blogpost on how was this boilerplate built](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/)
-
-Good to understand what's what.
+# Boilerplate for a Koa2 Redux React app with Webpack3, Jest, SASS, Babel, ESLint...
 
 ## Instructions
 
 1. **Clone repo**
 
-    git clone https://github.com/mezod/boilerplate-koa-redux-react.git
+    git clone https://github.com/edocz/node-seed.git
 
 2. **Install dependencies**
 
@@ -32,14 +26,6 @@ Good to understand what's what.
 
    Development server should be running at http://localhost:8080/
 
-## Real projects using this boilerplate
-
-[listlogs.com](http://www.listlogs.com)
-
-[eventradr.com](http://eventradr.com)
-
-[everydaycheck.com - Simple and beautiful habit tracker](http://everydaycheck.com)
-
 ## List of techs
 
 - [Node](https://nodejs.org/en/) - JS runtime environment
@@ -47,9 +33,7 @@ Good to understand what's what.
 - [Koa](http://koajs.com/) - api framework
 - [koa-router](https://github.com/alexmingoia/koa-router) - api router
 - [koa-cors](https://github.com/koajs/cors) - cors support
-- [Bookshelf.js](http://bookshelfjs.org/) - ORM
-- [knex](http://knexjs.org/) - query builder
-- [mysql](https://github.com/felixge/node-mysql) - MySQL driver for JS
+- [sequelize](http://docs.sequelizejs.com) - ORM
 - [Babel](https://babeljs.io/) - ES6 transpiler
 - [Webpack](https://webpack.github.io/) - module bundler & task runner
 - [React](https://facebook.github.io/react/) - interfaces
@@ -63,9 +47,8 @@ Good to understand what's what.
 - [redux-devtools](https://github.com/gaearon/redux-devtools) - redux development tool
 - [SASS](http://sass-lang.com/) - styles
 - [ESLint](http://eslint.org/) - linter
-- [Mocha](http://mochajs.org/) - unit tests
+- [Jest](https://facebook.github.io/jest/) - unit tests
 - [jsdom](https://github.com/tmpvar/jsdom) - vdom to test React without browser
-- [Chai](http://chaijs.com/) - assertion library
 - A bunch of useful scripts
 
 ## Scripts
@@ -76,10 +59,6 @@ Good to understand what's what.
 - **npm run test**
 
      Runs unit tests
-
-- **npm run test:watch**
-
-     Watches for changes to run unit tests
 
 - **npm run build**
 
@@ -100,4 +79,3 @@ Good to understand what's what.
 - **npm run clean**
 
     Removes the bundled code and the production ready files
-
